@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: nginx:latest
+        image: larbizyoisco/my-app:be23ba34f2b3bd72503986145179db2456a0352f
         ports:
         - containerPort: 80
